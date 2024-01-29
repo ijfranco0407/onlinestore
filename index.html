@@ -5,9 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Online Store</title>
 </head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background: silver;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+     nav ul{
+        list-style: none;
+        background: black;
+        padding: 0;
+        margin: 5px 20px;
+        text-align: center;
+        display: flex;
+        
+    }
+    nav{
+        display: inline-block;
+    }
+    nav a{
+        text-decoration: none;
+        color: #fff;
+        width: 100px;
+        display: block;
+        padding: 25px 20px;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        }
+        nav a:hover{
+            background: gainsboro;
+        }
+</style>
 <body>
     <header>
-        <h1>My Online Store</h1>
+        <h1 style="text-align: center;">My Online Tech Store</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -21,11 +55,11 @@
 <main>
     <article id="about">
         <section>
-            <h2 style="color: blue; text-align: center;">Company Profile</h2>
+            <h2 style="color: white; text-align: center;">Company Profile</h2>
             <p style="text-align: center;"> IJ Electronics is a premier technology solutions provider specializing in the sale and distribution of cutting-edge Apple products, including iPhones and MacBooks. Established with a passion for innovation and a commitment to providing unparalleled customer experiences, we aim to be the preferred destination for individuals and businesses seeking top-tier Apple devices.</p>
         </section>
         <section>
-            <h2 style="color: blue; text-align: center;">Company Logo</h2>
+            <h2 style="color: white; text-align: center;">Company Logo</h2>
             <figure style="text-align: center;">
                 <img src="png.png" alt="" height="300">
                 <figcaption>Our Official Company Logo</figcaption>
@@ -33,7 +67,7 @@
             </figure>
         </section>
         <section>
-            <h2 style="text-align: center; color: blue;">Company Owner</h2>
+            <h2 style="text-align: center; color: white;">Company Owner</h2>
             <figure style="text-align: center;">
                 <img src="owner.jpg" alt="IANJOYD" height="300"  >
                 <figcaption style="text-align: center; font-weight: bold;">IAN JOYD FRANCO</figcaption>
@@ -44,7 +78,7 @@
     <hr>
     <article id="product">
         <section>
-            <h2 style="color: blue; text-align: center;">Cellphones</h2>
+            <h2 style="color: white; text-align: center;">Cellphones</h2>
             <figure style="text-align: center;">
                 <img src="ip15.jpg" alt="" height="300"> <br>
                 <img src="ip15s.jpg" alt="" height="300">
@@ -78,11 +112,24 @@
             </figure>
         </section>
         <section>
-            <h2 style="color: blue; text-align: center;">Laptops</h2>
+            <h2 style="color: white; text-align: center;">Laptops</h2>
         </section>
 
     </article>
-
+    <article id="promos">
+        <h2 style="text-align: center; color: white;">Promos</h2>
+    </article>
+    <article id="contact">
+        <h2 style="text-align: center; color: white;">Contact Us</h2>
+        <p style="text-align: center;">Reach us out using these following contact details:</p>
+        <ul>
+            <li>Landline: 343-1234</li>
+            <li>Phone Number: 09076297183</li>
+            <li>Email: <a href="mailto:ianjoydfranco0407@gmail.com">ianjoydfranco0407@gmail.com</a></li>
+            <li>Facebook: <a href="https://www.facebook.com/profile.php?id=100079525981663">Ian Joyd Franco</a></li>
+            
+        </ul>
+    </article>
 </main>
 <hr>
 
