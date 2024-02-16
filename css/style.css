@@ -2,6 +2,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0 ,0, 0, 2);
@@ -122,8 +123,8 @@ figcaption {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
-    color: rgb(235, 239, 243);
+    margin: 1rem 0 5rem 0;
+    color: rgb(242, 245, 248);
 }
 .socials li{
     max-width: 100%;
@@ -139,8 +140,8 @@ figcaption {
     margin-right: auto;
     text-decoration: none;
     color: #fff;
-    border: 1.1px solid white;
-    padding: 5px;
+    border: 1.1px solid rgb(179, 169, 169);
+    padding: 15px;
     border-radius: 50%;
 }
 .socials a i{
@@ -152,11 +153,11 @@ figcaption {
     width: 20px;
     transition: color .4s ease;
 }
-.socials a:hover i{
+.socials a:hover li{
     color: aqua;
 }
 .footer-content p{
-    max-width: 500px;
+    max-width: 50%;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
