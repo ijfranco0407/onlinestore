@@ -28,7 +28,7 @@ li a {
 }
 
 nav ul li {
-    max-width: 100%;
+    max-width: 25%;
     display: block;
     display: inline;
     margin-left: auto;
@@ -91,6 +91,7 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    max-width: 100%;
 }
 .prod4{
     height: 200%;
@@ -125,9 +126,17 @@ figcaption {
     color: rgb(235, 239, 243);
 }
 .socials li{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin: 10px 10px;
 }
 .socials a{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
     color: #fff;
     border: 1.1px solid white;
@@ -135,6 +144,10 @@ figcaption {
     border-radius: 50%;
 }
 .socials a i{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.1rem;
     width: 20px;
     transition: color .4s ease;
