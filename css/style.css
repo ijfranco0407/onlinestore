@@ -1,3 +1,8 @@
+html {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .card {
     box-shadow: 0 4px 8px 0 rgba(0 ,0, 0, 2);
     margin: auto;
@@ -108,6 +113,7 @@ figcaption {
     flex-direction: column;
 }
 .socials{
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -116,10 +122,10 @@ figcaption {
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
-    color: aliceblue;
+    color: rgb(235, 239, 243);
 }
 .socials li{
-    margin: 0 10px;
+    margin: 10px 10px;
 }
 .socials a{
     text-decoration: none;
@@ -157,4 +163,5 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    display: block;
 }
