@@ -1,0 +1,130 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0 ,0, 0, 2);
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 30px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffd700; 
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: hsl(0, 0%, 5%); 
+}
+.logo{
+    border-radius: 12px;
+    box-shadow: 5px 5px black;
+}
+.price{
+    color: grey;
+    font-size: 22px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.prod1{
+    height: 100px;
+    width: 100%;
+    border-radius: 12px;
+}
+.prod2{
+    height: 250px;
+    width: 200px;
+}
+.prod3{
+    height: 200px;
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+.prod4{
+    height: 200%;
+    width: 200px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    background: #626263;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
