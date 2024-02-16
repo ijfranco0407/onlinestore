@@ -77,6 +77,8 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 figcaption {
+    display: block;
+    margin: auto;
     background-color: #222;
     color: #fff;
     font: italic smaller sans-serif;
@@ -104,7 +106,10 @@ figcaption {
     flex-direction: column;
 }
 .socials{
-    list-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: square;
     display: flex;
     align-items: center;
     justify-content: center;
