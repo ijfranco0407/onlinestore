@@ -28,7 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffd700; 
+    color: silver; 
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
@@ -36,7 +36,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: hsl(0, 0%, 5%); 
+    background-color: hsl(240, 4%, 37%); 
+    box-shadow: 3px 3px 3px lightblue;
 }
 .logo{
     border-radius: 12px;
@@ -86,10 +87,13 @@ figcaption {
     margin-top: 12px;
 }
 .footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    width: 100%;
-    background: #626263;
-    min-height: 100px;
+    max-width: 100%;
+    background-image: radial-gradient(white,gray, black);
+    min-height: 50px;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -127,5 +131,13 @@ figcaption {
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
-    color: #cacdd2;
+    color: #c7c9cc;
+}
+
+.highlight {
+    background-color: #ffd700;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px gray;
 }
